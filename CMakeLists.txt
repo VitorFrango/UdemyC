@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.24)
+project(UdemyC C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(UdemyC_main main.c S7/matrizes.c S7/matrizes.c S7/matrizes2.c S7/matrizes2.c S7/S7Exer1.c S7/S7Exer1.c S7/S7Exer1.c S7/S7Exer2.c S7/S7Exer3.c S7/S7Exer4.c S7/S7Exer5.c S7/S7Exer6.c S7/S7Exer6.c)
+add_executable(UdemyC_vectore1 S7/vectore1.c S7/matrizes.c S7/matrizes2.c S7/S7Exer1.c S7/S7Exer1.c S7/S7Exer1.c S7/S7Exer2.c S7/S7Exer3.c S7/S7Exer4.c S7/S7Exer5.c S7/S7Exer6.c S7/S7Exer6.c)
+add_executable(UdemyC_matrizes s7/matrizes.c)
+add_executable(UdemyC_matrizes2 s7/matrizes2.c)
+add_executable(UdemyC_S7Exer1 S7/S7Exer1.c)
+add_executable(UdemyC_S7Exer2 S7/S7Exer2.c)
+add_executable(UdemyC_S7Exer3 S7/S7Exer3.c)
+add_executable(UdemyC_S7Exer4 S7/S7Exer4.c)
+add_executable(UdemyC_S7Exer5 S7/S7Exer5.c)
+add_executable(UdemyC_S7Exer6 S7/S7Exer6.c)

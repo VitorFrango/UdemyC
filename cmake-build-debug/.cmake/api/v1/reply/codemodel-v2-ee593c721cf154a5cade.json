@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UdemyC",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_S7Exer1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_S7Exer1-Debug-182dd742e9df21ebaf5a.json",
+					"name" : "UdemyC_S7Exer1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_S7Exer2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_S7Exer2-Debug-391371993dd2648b88d6.json",
+					"name" : "UdemyC_S7Exer2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_S7Exer3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_S7Exer3-Debug-b508c45a8bd0a0dd97b9.json",
+					"name" : "UdemyC_S7Exer3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_S7Exer4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_S7Exer4-Debug-95e82cb3ccd5d921cbda.json",
+					"name" : "UdemyC_S7Exer4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_S7Exer5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_S7Exer5-Debug-ba654cace3067e9cb2a3.json",
+					"name" : "UdemyC_S7Exer5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_S7Exer6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_S7Exer6-Debug-81e27aee8280be691a3f.json",
+					"name" : "UdemyC_S7Exer6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_main-Debug-26e1e2f923733ef45e53.json",
+					"name" : "UdemyC_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_matrizes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_matrizes-Debug-68c7cffd3afe1453bc52.json",
+					"name" : "UdemyC_matrizes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_matrizes2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_matrizes2-Debug-1cf3d203e99f412274a5.json",
+					"name" : "UdemyC_matrizes2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyC_vectore1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyC_vectore1-Debug-f29619eee1c6a57ab467.json",
+					"name" : "UdemyC_vectore1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug",
+		"source" : "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

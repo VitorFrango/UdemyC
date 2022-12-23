@@ -1,0 +1,514 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: UdemyC
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_main
+
+
+#############################################
+# Order-only phony target for UdemyC_main
+
+build cmake_object_order_depends_target_UdemyC_main: phony || CMakeFiles/UdemyC_main.dir
+
+build CMakeFiles/UdemyC_main.dir/main.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/main.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/main.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir
+
+build CMakeFiles/UdemyC_main.dir/S7/matrizes.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/matrizes.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/matrizes.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+build CMakeFiles/UdemyC_main.dir/S7/matrizes2.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/matrizes2.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/matrizes2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+build CMakeFiles/UdemyC_main.dir/S7/S7Exer1.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer1.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/S7Exer1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+build CMakeFiles/UdemyC_main.dir/S7/S7Exer2.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer2.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/S7Exer2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+build CMakeFiles/UdemyC_main.dir/S7/S7Exer3.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer3.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/S7Exer3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+build CMakeFiles/UdemyC_main.dir/S7/S7Exer4.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer4.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/S7Exer4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+build CMakeFiles/UdemyC_main.dir/S7/S7Exer5.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer5.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/S7Exer5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+build CMakeFiles/UdemyC_main.dir/S7/S7Exer6.c.o: C_COMPILER__UdemyC_main_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer6.c || cmake_object_order_depends_target_UdemyC_main
+  DEP_FILE = CMakeFiles/UdemyC_main.dir/S7/S7Exer6.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_main.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_main
+
+
+#############################################
+# Link the executable UdemyC_main
+
+build UdemyC_main: C_EXECUTABLE_LINKER__UdemyC_main_Debug CMakeFiles/UdemyC_main.dir/main.c.o CMakeFiles/UdemyC_main.dir/S7/matrizes.c.o CMakeFiles/UdemyC_main.dir/S7/matrizes2.c.o CMakeFiles/UdemyC_main.dir/S7/S7Exer1.c.o CMakeFiles/UdemyC_main.dir/S7/S7Exer2.c.o CMakeFiles/UdemyC_main.dir/S7/S7Exer3.c.o CMakeFiles/UdemyC_main.dir/S7/S7Exer4.c.o CMakeFiles/UdemyC_main.dir/S7/S7Exer5.c.o CMakeFiles/UdemyC_main.dir/S7/S7Exer6.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_main
+  TARGET_PDB = UdemyC_main.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_vectore1
+
+
+#############################################
+# Order-only phony target for UdemyC_vectore1
+
+build cmake_object_order_depends_target_UdemyC_vectore1: phony || CMakeFiles/UdemyC_vectore1.dir
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/vectore1.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/vectore1.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/vectore1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/matrizes.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/matrizes.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/matrizes.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/matrizes2.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/matrizes2.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/matrizes2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer1.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer1.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer2.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer2.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer3.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer3.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer4.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer4.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer5.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer5.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+build CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer6.c.o: C_COMPILER__UdemyC_vectore1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer6.c || cmake_object_order_depends_target_UdemyC_vectore1
+  DEP_FILE = CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer6.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_vectore1.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_vectore1
+
+
+#############################################
+# Link the executable UdemyC_vectore1
+
+build UdemyC_vectore1: C_EXECUTABLE_LINKER__UdemyC_vectore1_Debug CMakeFiles/UdemyC_vectore1.dir/S7/vectore1.c.o CMakeFiles/UdemyC_vectore1.dir/S7/matrizes.c.o CMakeFiles/UdemyC_vectore1.dir/S7/matrizes2.c.o CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer1.c.o CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer2.c.o CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer3.c.o CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer4.c.o CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer5.c.o CMakeFiles/UdemyC_vectore1.dir/S7/S7Exer6.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_vectore1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_vectore1
+  TARGET_PDB = UdemyC_vectore1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_matrizes
+
+
+#############################################
+# Order-only phony target for UdemyC_matrizes
+
+build cmake_object_order_depends_target_UdemyC_matrizes: phony || CMakeFiles/UdemyC_matrizes.dir
+
+build CMakeFiles/UdemyC_matrizes.dir/s7/matrizes.c.o: C_COMPILER__UdemyC_matrizes_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/s7/matrizes.c || cmake_object_order_depends_target_UdemyC_matrizes
+  DEP_FILE = CMakeFiles/UdemyC_matrizes.dir/s7/matrizes.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_matrizes.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_matrizes.dir/s7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_matrizes
+
+
+#############################################
+# Link the executable UdemyC_matrizes
+
+build UdemyC_matrizes: C_EXECUTABLE_LINKER__UdemyC_matrizes_Debug CMakeFiles/UdemyC_matrizes.dir/s7/matrizes.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_matrizes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_matrizes
+  TARGET_PDB = UdemyC_matrizes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_matrizes2
+
+
+#############################################
+# Order-only phony target for UdemyC_matrizes2
+
+build cmake_object_order_depends_target_UdemyC_matrizes2: phony || CMakeFiles/UdemyC_matrizes2.dir
+
+build CMakeFiles/UdemyC_matrizes2.dir/s7/matrizes2.c.o: C_COMPILER__UdemyC_matrizes2_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/s7/matrizes2.c || cmake_object_order_depends_target_UdemyC_matrizes2
+  DEP_FILE = CMakeFiles/UdemyC_matrizes2.dir/s7/matrizes2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_matrizes2.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_matrizes2.dir/s7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_matrizes2
+
+
+#############################################
+# Link the executable UdemyC_matrizes2
+
+build UdemyC_matrizes2: C_EXECUTABLE_LINKER__UdemyC_matrizes2_Debug CMakeFiles/UdemyC_matrizes2.dir/s7/matrizes2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_matrizes2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_matrizes2
+  TARGET_PDB = UdemyC_matrizes2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_S7Exer1
+
+
+#############################################
+# Order-only phony target for UdemyC_S7Exer1
+
+build cmake_object_order_depends_target_UdemyC_S7Exer1: phony || CMakeFiles/UdemyC_S7Exer1.dir
+
+build CMakeFiles/UdemyC_S7Exer1.dir/S7/S7Exer1.c.o: C_COMPILER__UdemyC_S7Exer1_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer1.c || cmake_object_order_depends_target_UdemyC_S7Exer1
+  DEP_FILE = CMakeFiles/UdemyC_S7Exer1.dir/S7/S7Exer1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_S7Exer1.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_S7Exer1
+
+
+#############################################
+# Link the executable UdemyC_S7Exer1
+
+build UdemyC_S7Exer1: C_EXECUTABLE_LINKER__UdemyC_S7Exer1_Debug CMakeFiles/UdemyC_S7Exer1.dir/S7/S7Exer1.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_S7Exer1
+  TARGET_PDB = UdemyC_S7Exer1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_S7Exer2
+
+
+#############################################
+# Order-only phony target for UdemyC_S7Exer2
+
+build cmake_object_order_depends_target_UdemyC_S7Exer2: phony || CMakeFiles/UdemyC_S7Exer2.dir
+
+build CMakeFiles/UdemyC_S7Exer2.dir/S7/S7Exer2.c.o: C_COMPILER__UdemyC_S7Exer2_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer2.c || cmake_object_order_depends_target_UdemyC_S7Exer2
+  DEP_FILE = CMakeFiles/UdemyC_S7Exer2.dir/S7/S7Exer2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer2.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_S7Exer2.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_S7Exer2
+
+
+#############################################
+# Link the executable UdemyC_S7Exer2
+
+build UdemyC_S7Exer2: C_EXECUTABLE_LINKER__UdemyC_S7Exer2_Debug CMakeFiles/UdemyC_S7Exer2.dir/S7/S7Exer2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_S7Exer2
+  TARGET_PDB = UdemyC_S7Exer2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_S7Exer3
+
+
+#############################################
+# Order-only phony target for UdemyC_S7Exer3
+
+build cmake_object_order_depends_target_UdemyC_S7Exer3: phony || CMakeFiles/UdemyC_S7Exer3.dir
+
+build CMakeFiles/UdemyC_S7Exer3.dir/S7/S7Exer3.c.o: C_COMPILER__UdemyC_S7Exer3_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer3.c || cmake_object_order_depends_target_UdemyC_S7Exer3
+  DEP_FILE = CMakeFiles/UdemyC_S7Exer3.dir/S7/S7Exer3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer3.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_S7Exer3.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_S7Exer3
+
+
+#############################################
+# Link the executable UdemyC_S7Exer3
+
+build UdemyC_S7Exer3: C_EXECUTABLE_LINKER__UdemyC_S7Exer3_Debug CMakeFiles/UdemyC_S7Exer3.dir/S7/S7Exer3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_S7Exer3
+  TARGET_PDB = UdemyC_S7Exer3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_S7Exer4
+
+
+#############################################
+# Order-only phony target for UdemyC_S7Exer4
+
+build cmake_object_order_depends_target_UdemyC_S7Exer4: phony || CMakeFiles/UdemyC_S7Exer4.dir
+
+build CMakeFiles/UdemyC_S7Exer4.dir/S7/S7Exer4.c.o: C_COMPILER__UdemyC_S7Exer4_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer4.c || cmake_object_order_depends_target_UdemyC_S7Exer4
+  DEP_FILE = CMakeFiles/UdemyC_S7Exer4.dir/S7/S7Exer4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer4.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_S7Exer4.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_S7Exer4
+
+
+#############################################
+# Link the executable UdemyC_S7Exer4
+
+build UdemyC_S7Exer4: C_EXECUTABLE_LINKER__UdemyC_S7Exer4_Debug CMakeFiles/UdemyC_S7Exer4.dir/S7/S7Exer4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_S7Exer4
+  TARGET_PDB = UdemyC_S7Exer4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_S7Exer5
+
+
+#############################################
+# Order-only phony target for UdemyC_S7Exer5
+
+build cmake_object_order_depends_target_UdemyC_S7Exer5: phony || CMakeFiles/UdemyC_S7Exer5.dir
+
+build CMakeFiles/UdemyC_S7Exer5.dir/S7/S7Exer5.c.o: C_COMPILER__UdemyC_S7Exer5_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer5.c || cmake_object_order_depends_target_UdemyC_S7Exer5
+  DEP_FILE = CMakeFiles/UdemyC_S7Exer5.dir/S7/S7Exer5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer5.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_S7Exer5.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_S7Exer5
+
+
+#############################################
+# Link the executable UdemyC_S7Exer5
+
+build UdemyC_S7Exer5: C_EXECUTABLE_LINKER__UdemyC_S7Exer5_Debug CMakeFiles/UdemyC_S7Exer5.dir/S7/S7Exer5.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_S7Exer5
+  TARGET_PDB = UdemyC_S7Exer5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyC_S7Exer6
+
+
+#############################################
+# Order-only phony target for UdemyC_S7Exer6
+
+build cmake_object_order_depends_target_UdemyC_S7Exer6: phony || CMakeFiles/UdemyC_S7Exer6.dir
+
+build CMakeFiles/UdemyC_S7Exer6.dir/S7/S7Exer6.c.o: C_COMPILER__UdemyC_S7Exer6_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/S7/S7Exer6.c || cmake_object_order_depends_target_UdemyC_S7Exer6
+  DEP_FILE = CMakeFiles/UdemyC_S7Exer6.dir/S7/S7Exer6.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer6.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyC_S7Exer6.dir/S7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyC_S7Exer6
+
+
+#############################################
+# Link the executable UdemyC_S7Exer6
+
+build UdemyC_S7Exer6: C_EXECUTABLE_LINKER__UdemyC_S7Exer6_Debug CMakeFiles/UdemyC_S7Exer6.dir/S7/S7Exer6.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyC_S7Exer6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyC_S7Exer6
+  TARGET_PDB = UdemyC_S7Exer6.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug && "/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug && "/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC -B/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug
+
+build all: phony UdemyC_main UdemyC_vectore1 UdemyC_matrizes UdemyC_matrizes2 UdemyC_S7Exer1 UdemyC_S7Exer2 UdemyC_S7Exer3 UdemyC_S7Exer4 UdemyC_S7Exer5 UdemyC_S7Exer6
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

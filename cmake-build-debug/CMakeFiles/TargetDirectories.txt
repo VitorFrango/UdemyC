@@ -1,0 +1,12 @@
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_main.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_vectore1.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_matrizes.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_matrizes2.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_S7Exer1.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_S7Exer2.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_S7Exer3.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_S7Exer4.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_S7Exer5.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/UdemyC_S7Exer6.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

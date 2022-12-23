@@ -1,0 +1,12 @@
+"/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC -B /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  add_executable cannot create target "UdemyC_vectore1" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC".
+  See documentation for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyC/cmake-build-debug/CMakeFiles/CMakeError.log".

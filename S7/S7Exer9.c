@@ -11,25 +11,24 @@ int main (){
 
 
     printf("Escreva 6 numeros inteiros pares: \n");
-o if vai par dentro do for
-    if (numero[i] % 2 == 0 ){
+
         for (int i = 0; i < 6; ++i) {
-            printf("A posição [i] é ", numero[i]);
+            printf("A posição [%d] é ", i);
             scanf("%d", &numero[i]);
 
+            if (numero[i] % 2 == 0) {
+
+                printf("O numeros itroduzidos foram, %d \n", numero[i]);
+
+            } else {
+                printf("O numero introduzido não é par. \n");
+            }
         }
-
-    }
-    else {
-        printf("O numero introduzido não é par. \n");
-    }
-
     for (int i = 6; i >= 0 ; --i) {
 
         printf("O numeros itroduzidos foram, %d \n", numero[i]);
 
     }
-
 
     return 0;
 }

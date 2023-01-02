@@ -7,7 +7,7 @@
 int main(){
 
     float numero[10];
-    int i, soma;
+    int soma = 0;
     int cont = 3;
     int qts = 0;
 
@@ -15,24 +15,26 @@ int main(){
     for (int i = 0; i < cont; ++i) {
         scanf("%f", &numero[i]);
 
-
     }
 
+        printf("Os numeros introduzidos foram:  \n");
     for (int i = 0; i < cont; ++i) {
-        printf("Os numeros introduzidos foram: [%0.f] \n", numero[i]);
+        printf("[%0.f] \n", numero[i]);
 
         if (numero[i] < 0) {
             qts++;
-
-        }
-
-        else if (numero[i] > 0){
-            soma += numero[i];
-
         }
     }
+
+    for (int i = 0; i < cont; ++i) {
+        if (numero[i] > 0) {
+            soma += numero[i];
+        }
+    }
+
+    soma += soma;
     printf("Escreveu %d numeros negativos \n", qts);
-    printf("A soma dos nunmeros pares é %0.f", soma);
+    printf("A soma dos nunmeros positivos é %0.f", soma);
 
 
     return 0;

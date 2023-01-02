@@ -33,6 +33,7 @@ int main(){
 
     media = soma / 5;
     printf("A media das notas foi: %d \n", media);
+    printf("A somaa das notas foi: %d \n", soma);
 
     return 0 ;
 }

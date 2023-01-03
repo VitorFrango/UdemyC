@@ -12,8 +12,6 @@ int main (){
     printf("Escreva 5 numeros: \n");
     for (int i = 0; i < 5; ++i) {
         scanf("%d", &valor[i]);
-
-
     }
 
     printf("Os valores introduzidos são: \n");
@@ -32,13 +30,10 @@ int main (){
             menor = valor[i];
             menorp = i;
         }
-
     }
-    printf("O maior numero digitado é [%d]  e esta na posição %d \n", maior, maiorp);
-    printf("O menor numero digitado é [%d] \n", menor, menorp);
 
-
-
+    printf("O maior numero digitado é [%d]  e esta na posição [%d] \n", maior, maiorp);
+    printf("O menor numero digitado é [%d]  e esta na posição [%d] \n", menor, menorp);
 
     return 0;
 }

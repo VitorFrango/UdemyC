@@ -6,8 +6,8 @@
 int main (){
 
     int vector[10];
-    int iguais = 0;,
-    int ;
+    int iguais = 0;
+    
 
     printf("Escreva 10 numeros: \n");
     for (int i = 0; i < 10; ++i) {
@@ -23,11 +23,16 @@ int main (){
 
 
     for (int i = 0; i < 10; ++i) {
+        for (int contador2 = i + 1 ; contador2   < 5 ; ++contador2 ) {
 
-        if (vector[i] = iguais );
+            if (vector[i] == vector[contador2]){
+                iguais=iguais+1;
+            }
+        }
+
 
     }
-    printf("Existem %d numeros identicos: \n", conta);
+    printf("Existem %d numeros identicos: \n", iguais);
 
     return 0;
 }

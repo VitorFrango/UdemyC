@@ -5,7 +5,7 @@
 
 
 int vector[10];
-int igual, icompara, remove;
+int igual, icompara;
 
 
 int main (){
@@ -25,7 +25,8 @@ int main (){
     for (int i = 0; i < 10; ++i) {
         for (int icompara = 0; icompara < 10 ; ++icompara) {
             if (vector[i] == vector[icompara]);
-            vector[i]= remove;
+                vector[icompara] = '0' ;
+
             printf("%d \n", vector[i]);
 
         }

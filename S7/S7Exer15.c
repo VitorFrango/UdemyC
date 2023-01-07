@@ -5,7 +5,7 @@
 
 
 int vector[10];
-int igual, compara;
+int igual, icompara, remove;
 
 
 int main (){
@@ -16,8 +16,19 @@ int main (){
         scanf("%d", &vector[i]);
     }
 
+    printf("Os numeros introduzidos foram:  \n");
+    for (int i = 0; i < 10 ; ++i) {
+        printf("%d \n", vector[i]);
+    }
+
+
     for (int i = 0; i < 10; ++i) {
-        
+        for (int icompara = 0; icompara < 10 ; ++icompara) {
+            if (vector[i] == vector[icompara]);
+            vector[i]= remove;
+            printf("%d \n", vector[i]);
+
+        }
 
     }
 

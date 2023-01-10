@@ -7,7 +7,7 @@ int main (){
 
     int vector[10];
     int iguais = 0;
-    
+
 
     printf("Escreva 10 numeros: \n");
     for (int i = 0; i < 10; ++i) {
@@ -22,10 +22,10 @@ int main (){
     }
 
 
-    for (int i = 0; i < 10; ++i) {
-        for (int contador2 = i + 1 ; contador2   < 5 ; ++contador2 ) {
+    for (int contador1  = 0; contador1 < 10; ++contador1) {
+        for (int contador2 = contador1 + 1 ; contador2   < 10 ; ++contador2 ) {
 
-            if (vector[i] == vector[contador2]){
+            if (vector[contador1] == vector[contador2]){
                 iguais=iguais+1;
             }
         }

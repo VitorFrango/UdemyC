@@ -5,7 +5,7 @@
 
 
 int vector[10];
-int igual, icompara;
+int tam = sizeof(vector) / sizeof(int);
 
 
 int main (){
@@ -22,16 +22,30 @@ int main (){
     }
 
 
-    for (int i = 0; i < 10; ++i) {
-        for (int icompara = 0; icompara < 10 ; ++icompara) {
-            if (vector[i] == vector[icompara]);
-                vector[icompara] = '0' ;
+    /* Remove elementos com valor duplicado */
+    for(int  i = 0; i < tam; i++ )
+    {
+        for( int j = i + 1; j < tam; )
+        {
+            if( vector[j] == vector[i] )
+            {
+                for( int k = j; k < tam; k++ )
+                    vector[k] = vector[k + 1];
 
-            printf("%d \n", vector[i]);
-
+                tam--;
+            }
+            else
+            {
+                j++;
+            }
         }
-
     }
+
+    /* Exibe Vetor Depois */
+    printf("Depois: \n ");
+    for( int i = 0; i < tam; i++ )
+        printf("%d ", vector[i] );
+    printf("\n");
 
     return 0;
 }

@@ -31,6 +31,13 @@ int main(){
         for (int i = 0; i < tam ; ++i) {
 
         }
+        
+        printf("Os os multiplos de X são:\n ");
+        for (int i = 0; i < tam; ++i) {
+            if ((vetor[i]%x) ==0)
+                printf("%d \n", vetor[i]);
+
+        }
 
         printf("Deseja continuar? (s/n) \n");
         scanf(" %c", &opcao);

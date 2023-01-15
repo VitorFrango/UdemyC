@@ -4,17 +4,17 @@
 
 #include <stdio.h>
 
-int vetor[3], vetor2[3];
+int vetor[3];
 int tam = sizeof (vetor) / sizeof (int);
 char opcao;
-int x,i, j;
-int conta = 0;
+int x,i,j;
+
 
 int main(){
 
     do {
 
-        printf("Escreva 10 nuemros: \n");
+        printf("Escreva 10 numeros: \n");
         for (i = 0; i < tam; ++i) {
             scanf("%d", &vetor[i]);
 
@@ -23,16 +23,21 @@ int main(){
         printf("Escreva um numero: ");
         scanf("%d", &x);
 
-        vetor[i]=vetor2[j];
-        for (j = 0; j < tam; ++j) {
-            if ((vetor2[j]%x) == 0){
-                conta++;
+        int conta = 0;
+        for (i = 0; i < tam; ++i) {
+                if ((vetor[i] % x) == 0){
+                    conta++;
+                }
             }
+        printf("Encontrei %d numeros multiplos de X \n ", conta);
 
+        for ( i = 0; i < tam; ++i) {
+            if ((vetor[i] % x)  == 0 ){
+                printf("Multiplo %d \n", vetor[i]);
+            }
         }
-        printf(" %d  \n", vetor[i]);
-        printf("Encontrei [%d] numeros multiplos e são os [%d ] \n ", conta, vetor2[j]);
-        fflush(stdin);
+
+
 
         printf("Deseja continuar? (s/n) \n");
         scanf(" %c", &opcao);

@@ -1,22 +1,51 @@
 //
 // Created by Vitor Frango on 22/01/2023.
 //
+
 #include <stdio.h>
+#define Max  5
 
+int vetor[Max];
+int vetor2[Max];
+int i, j;
 
-int vetor[10];
+int main (){
 
-int main(){
+    printf("Esceva 10 numros inteiros dentro do intervalo [0...50]\n ") ;
 
-    printf("Escreva 10 interios entre 0 e 50");
-    scanf("%d", &vetor[]);
-
-    for (int i = 0; i < 10; ++i) {
-        if (vetor{} >= 0) && (vetor <= 50 ){
-
+        for (int i = 0; i < Max; ++i) {
+            scanf(" %d", vetor[i]);
+            if ((vetor[i] >= 0) && (vetor[i] <= 50)) {
+                
+            } else {
+                printf("O numero introduzido está fora de [0...50] \n");
+            }
         }
-
+    for (int i = 0; i < Max; ++i) {
+        printf("Os valores introduzidos são na posição [%d) = %d ", i, vetor[i]);
     }
-
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

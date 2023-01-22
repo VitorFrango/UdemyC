@@ -7,21 +7,17 @@
 
 int vetor[Max];
 int tam = Max;
-int total, parc1, parc2 = 0 ;
+int total;
 
 
 int main (){
 
-    for (int i = 0; i < tam; ++i) {
+    for (int i = 0; i < Max; ++i) {
+        total  =  // ((i + ( 5 * i )) % (i +1));
+        printf("[%d] %d \n",i, total);
 
-             total = vetor[i] + ( 5 * vetor[i]) % (vetor[i] +1);
 
     }
-    for (int i = 0; i < tam; ++i) {
-        printf("%d %d \n", total, vetor[i]);
-    }
-
-
 
 
 

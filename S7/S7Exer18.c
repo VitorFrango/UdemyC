@@ -23,21 +23,21 @@ int main(){
         printf("Escreva um numero: ");
         scanf("%d", &x);
 
+        // conta o numeto de multiplos de X
         int conta = 0;
         for (i = 0; i < tam; ++i) {
                 if ((vetor[i] % x) == 0){
                     conta++;
                 }
             }
-        printf("Encontrei %d numeros multiplos de X \n ", conta);
+        printf("Encontrei %d numeros multiplos de X \n", conta);
 
-        for ( i = 0; i < tam; ++i) {
-            if ((vetor[i] % x)  == 0 ){
-                printf("Multiplo %d \n", vetor[i]);
+        for ( i = 0; i < tam ; ++i) {
+            if ((vetor[i] % x) == 0 ){
+                printf("Multiplo: %d \n", vetor[i]);
             }
+
         }
-
-
 
         printf("Deseja continuar? (s/n) \n");
         scanf(" %c", &opcao);

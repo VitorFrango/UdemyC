@@ -29,9 +29,8 @@ int main (){
                 iguais=iguais+1;
             }
         }
-
-
     }
+
     printf("Existem %d numeros identicos: \n", iguais);
 
     return 0;
